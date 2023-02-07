@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2318052381064289121}
   - component: {fileID: 2984396847068737775}
+  - component: {fileID: 5176191766389422214}
   - component: {fileID: 2990807169991533508}
   m_Layer: 0
   m_Name: Gas Can
@@ -85,6 +86,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5176191766389422214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9176028375462208206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5f2ec32e056b6e4f951606998b925b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 0
 --- !u!95 &2990807169991533508
 Animator:
   serializedVersion: 4
