@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3173855538063912745}
   m_Layer: 0
   m_Name: Tree
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +98,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.0733094, y: 2.0490427}
+  m_Offset: {x: 1.1904883, y: 2.0490427}
   serializedVersion: 2
-  m_Radius: 2.322558
+  m_Radius: 2.205379

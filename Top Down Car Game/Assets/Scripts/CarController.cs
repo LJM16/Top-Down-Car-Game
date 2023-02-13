@@ -17,7 +17,15 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
+       if(LevelManager.Instance.StartGame())
+       {
+            CarMovement();
+       }
+    }
+
+    private void CarMovement()
+    {
+         float horizontalInput = Input.GetAxisRaw("Horizontal");
         
         transform.Translate(Vector3.up * _moveSpeed * Time.deltaTime);
         transform.Translate(Vector3.right * _sideMoveSpeed *horizontalInput * Time.deltaTime);
