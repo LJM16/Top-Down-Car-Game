@@ -363,6 +363,7 @@ MonoBehaviour:
   CountdownTimerText: {fileID: 262584356}
   _coinsCollected: 0
   _gasAmount: 10
+  _currentGasAmount: 10
   _isGameActive: 0
 --- !u!1 &235842358
 GameObject:
@@ -475,7 +476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 22}
+  m_AnchoredPosition: {x: -12, y: 107}
   m_SizeDelta: {x: 540.6812, y: 215.7982}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &262584356
@@ -561,7 +562,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 23.692078, y: 0, z: -66.33783, w: -312.73535}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1209,6 +1210,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427759311}
   m_CullTransparentMesh: 1
+--- !u!1001 &519807097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 54.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176028375462208206, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_Name
+      value: Gas Can (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
 --- !u!1 &531169346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1402,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531169346}
   m_CullTransparentMesh: 1
+--- !u!1001 &599075073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 73.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318052381064289121, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176028375462208206, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
+      propertyPath: m_Name
+      value: Gas Can (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 400ab3f4430d88540be4442afcd1bb06, type: 3}
 --- !u!1 &654197338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1516,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 73e9e9008c92da44da0d379a1382e295, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4487,6 +4602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 4398133327353017887, guid: b012ffb12ed922b47a90b891d90c9176, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7106630228248025495, guid: b012ffb12ed922b47a90b891d90c9176, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -4664,11 +4783,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5254042560095904398, guid: 0f969b3b09620b64aa799f1ab721988c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5254042560095904398, guid: 0f969b3b09620b64aa799f1ab721988c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.06
+      value: 9.83
       objectReference: {fileID: 0}
     - target: {fileID: 5254042560095904398, guid: 0f969b3b09620b64aa799f1ab721988c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4714,6 +4833,10 @@ PrefabInstance:
     - target: {fileID: 2323327280435430366, guid: 5674a1b41de6ab341a5ea728715117d4, type: 3}
       propertyPath: m_Name
       value: Finish-line
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323327280435430366, guid: 5674a1b41de6ab341a5ea728715117d4, type: 3}
+      propertyPath: m_TagString
+      value: Finish Line
       objectReference: {fileID: 0}
     - target: {fileID: 6463820459285211117, guid: 5674a1b41de6ab341a5ea728715117d4, type: 3}
       propertyPath: m_RootOrder
@@ -4818,7 +4941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6346828278841052471, guid: d831dc913e79c90419808826300c1484, type: 3}
       propertyPath: m_TagString
-      value: Coin
+      value: Start Line
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d831dc913e79c90419808826300c1484, type: 3}
