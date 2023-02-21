@@ -611,7 +611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &262136717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5097,7 +5097,7 @@ GameObject:
   - component: {fileID: 1612335158}
   - component: {fileID: 1612335157}
   m_Layer: 5
-  m_Name: Game Over Text
+  m_Name: You Won Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5143,7 +5143,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Over
+  m_text: 'You Won!
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0a2e99929e0f91547bb703e0cf71c5d1, type: 2}
   m_sharedMaterial: {fileID: -6003323972500359790, guid: 0a2e99929e0f91547bb703e0cf71c5d1, type: 2}

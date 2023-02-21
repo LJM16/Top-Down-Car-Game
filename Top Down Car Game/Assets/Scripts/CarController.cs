@@ -74,6 +74,14 @@ public class CarController : MonoBehaviour
             StartCoroutine(SetBoost());
         }
     }
+
+    IEnumerator SetBoost()
+    {
+        float currentSpeed = _moveSpeed;
+        _moveSpeed = currentSpeed + _boostAmount;
+        yield return new WaitForSeconds(3f);
+        _moveSpeed = currentSpeed;
+    }
      
 
     
