@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     public TextMeshProUGUI CoinCountText;
     public TextMeshProUGUI GasAmountText;
     public TextMeshProUGUI CountdownTimerText;
+
+    public Slider GasMeterSlider;
     
     private int _countdownTimer = 3;
     [SerializeField] private int _coinsCollected = 0;
@@ -30,6 +32,7 @@ public class LevelManager : MonoBehaviour
         Time.timeScale = 1;
         CoinCountText.text = _coinsCollected.ToString();
         GasAmountText.text = _gasAmount.ToString();
+        SetMaxGasFillAmount(_gasAmount);
         StartCoroutine(StartCountdownTimer());
     }
 
@@ -79,7 +82,23 @@ public class LevelManager : MonoBehaviour
         CoinCountText.text = _coinsCollected.ToString();
     }
 
-    public void UpdateGasAmount(int amount)
+    public void SetMaxGasFillAmount(int amount)
+    {
+        GasMeterSlider.maxValue = amount;
+        GasMeterSlider.value = amount;
+    }
+
+    public void SetGasFillAmount(int amount) //slider value
+    {
+        if(_currentGasAmount < _gasAmount)
+        {
+            _currentGasAmount += amount;
+            GasMeterSlider.value = _currentGasAmount;
+            
+        }
+    }
+
+    public void UpdateGasAmount(int amount) //text value
     {
         if(_currentGasAmount < _gasAmount)
         {
